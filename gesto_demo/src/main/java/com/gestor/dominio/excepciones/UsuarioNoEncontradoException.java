@@ -1,5 +1,8 @@
 package com.gestor.dominio.excepciones;
 
-public class UsuarioNoEncontradoException {
+public class UsuarioNoEncontradoException extends RuntimeException {
+    public UsuarioNoEncontradoException (String message){
+        super(message);
+    }
     
 }
