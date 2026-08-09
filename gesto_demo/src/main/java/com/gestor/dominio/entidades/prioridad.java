@@ -1,5 +1,7 @@
 package com.gestor.dominio.entidades;
 
-public class prioridad {
-    
+public enum Prioridad {
+    ALTA,
+    MEDIA,
+    BAJA
 }

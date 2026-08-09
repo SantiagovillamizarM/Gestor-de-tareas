@@ -1,5 +1,7 @@
 package com.gestor.dominio.entidades;
 
-public class EstadoTarea {
-    
+public enum EstadoTarea {
+    POR_REALIZAR,
+    EN_PROCESO,
+    FINALIZADO
 }
