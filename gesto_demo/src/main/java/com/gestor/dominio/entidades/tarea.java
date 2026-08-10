@@ -11,12 +11,12 @@ public class Tarea implements Serializable {
     private EstadoTarea estado;
     private Usuario usuarioAsignado;
 
-    public Tarea(String id, String titulo, String descripcion, Prioridad prioridad, EstadoTarea estado, Usuario usuarioAsignado){
+    public Tarea(String id, String titulo, String descripcion, Prioridad prioridad){
         this.id = id;
         this.titulo = titulo;
         this.descripcion = descripcion;
         this.prioridad = prioridad;
-        this.estado = estado;
+        this.estado = EstadoTarea.POR_REALIZAR;
         this.usuarioAsignado = null;
     } 
 
